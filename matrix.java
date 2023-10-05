@@ -30,6 +30,24 @@ for (j=0;j<q;j++)
 b[i][j]=sc.nextInt(); 
 }
 }
+System.out.println("matrix A: ");
+for (i=0;i<m;i++)
+{
+for(j=0;j<n;j++)
+{
+System.out.print(a[i][j]+" ");
+}
+System.out.println();
+}
+System.out.println("matrix B: ");
+for (i=0;i<p;i++)
+{
+for(j=0;j<q;j++)
+{
+System.out.print(b[i][j]+" ");
+}
+System.out.println();
+}
 if (n==p)
 {
 for (i=0;i<m; i++)
