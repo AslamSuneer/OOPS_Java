@@ -32,9 +32,9 @@ class MultiThreading {
         int limit = sc.nextInt();
 
         for (int i = 1; i <= limit; i++) {
-            Thread obj X = new Thread(new X());
-            Thread obj Y = new Thread(new Y());
-            Thread obj Z = new Thread(new Z());
+            Thread objX = new Thread(new X());
+            Thread objY = new Thread(new Y());
+            Thread objZ = new Thread(new Z());
 
             try {
                 Thread.sleep(1000);
@@ -42,9 +42,9 @@ class MultiThreading {
                
             }
 
-         obj X.run();
- 	obj Y.run();
-	obj Z.run();        
+         objX.run();
+ 	objY.run();
+	objZ.run();        
 }
     }
 }
